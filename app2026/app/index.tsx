@@ -32,10 +32,12 @@ const styles = StyleSheet.create({
 
   button: {
     padding: 10,
-    backgroundColor: "white",
+    backgroundColor: "rgb(91, 0, 176)",
     borderRadius: 5,
     marginTop: 20,
-    fontSize: 16,
+    fontSize: 30,
+    color: "white",
+    fontWeight: "bold",
   }
 
 });
