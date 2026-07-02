@@ -54,9 +54,9 @@ def analisar(dados: Dados):
             "resultado": "não recomendado",
             "motivos": motivos
         }
-
-    return {
-        "produto": dados.nome_produto,
-        "resultado": "seguro para consumo",
-        "motivos": []
-    }
+    else:
+        return {
+            "produto": dados.nome_produto,
+            "resultado": "seguro para consumo",
+            "motivos": []
+        }

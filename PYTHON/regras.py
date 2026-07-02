@@ -2,6 +2,10 @@ regras = {
         # =========================
     # LEITE / LACTOSE
     # =========================
+    "leite": {
+        "restricao": "lactose",
+        "mensagem": "Contém leite, incompatível com restrição à lactose"
+    },
     "leite integral": {
         "restricao": "lactose",
         "mensagem": "Contém leite integral, incompatível com restrição à lactose"
@@ -1238,5 +1242,250 @@ regras = {
     "borracha natural": {
         "restricao": "latex",
         "mensagem": "Pode conter látex natural, incompatível com restrição ou alergia a látex"
+    },
+
+        # =========================
+    # FRASES DE RÓTULO - CONTÉM
+    # =========================
+
+    "contem gluten": {
+        "restricao": "gluten",
+        "mensagem": "O rótulo informa: contém glúten"
+    },
+    "contem trigo": {
+        "restricao": "gluten",
+        "mensagem": "O rótulo informa: contém trigo, incompatível com restrição ao glúten"
+    },
+    "contem centeio": {
+        "restricao": "gluten",
+        "mensagem": "O rótulo informa: contém centeio, incompatível com restrição ao glúten"
+    },
+    "contem cevada": {
+        "restricao": "gluten",
+        "mensagem": "O rótulo informa: contém cevada, incompatível com restrição ao glúten"
+    },
+    "contem aveia": {
+        "restricao": "gluten",
+        "mensagem": "O rótulo informa: contém aveia, incompatível com restrição ao glúten"
+    },
+
+    "contem leite": {
+        "restricao": "lactose",
+        "mensagem": "O rótulo informa: contém leite, incompatível com restrição à lactose"
+    },
+    "contem lactose": {
+        "restricao": "lactose",
+        "mensagem": "O rótulo informa: contém lactose"
+    },
+    "contem derivados de leite": {
+        "restricao": "lactose",
+        "mensagem": "O rótulo informa: contém derivados de leite"
+    },
+    "contem leite e derivados": {
+        "restricao": "lactose",
+        "mensagem": "O rótulo informa: contém leite e derivados"
+    },
+
+    "contem ovo": {
+        "restricao": "ovos",
+        "mensagem": "O rótulo informa: contém ovo"
+    },
+    "contem ovos": {
+        "restricao": "ovos",
+        "mensagem": "O rótulo informa: contém ovos"
+    },
+    "contem derivados de ovo": {
+        "restricao": "ovos",
+        "mensagem": "O rótulo informa: contém derivados de ovo"
+    },
+
+    "contem soja": {
+        "restricao": "soja",
+        "mensagem": "O rótulo informa: contém soja"
+    },
+    "contem derivados de soja": {
+        "restricao": "soja",
+        "mensagem": "O rótulo informa: contém derivados de soja"
+    },
+
+    "contem amendoim": {
+        "restricao": "amendoim",
+        "mensagem": "O rótulo informa: contém amendoim"
+    },
+    "contem derivados de amendoim": {
+        "restricao": "amendoim",
+        "mensagem": "O rótulo informa: contém derivados de amendoim"
+    },
+
+    "contem peixe": {
+        "restricao": "peixes",
+        "mensagem": "O rótulo informa: contém peixe"
+    },
+    "contem peixes": {
+        "restricao": "peixes",
+        "mensagem": "O rótulo informa: contém peixes"
+    },
+    "contem derivados de peixe": {
+        "restricao": "peixes",
+        "mensagem": "O rótulo informa: contém derivados de peixe"
+    },
+
+    "contem crustaceos": {
+        "restricao": "crustaceos",
+        "mensagem": "O rótulo informa: contém crustáceos"
+    },
+    "contem camarao": {
+        "restricao": "crustaceos",
+        "mensagem": "O rótulo informa: contém camarão"
+    },
+    "contem caranguejo": {
+        "restricao": "crustaceos",
+        "mensagem": "O rótulo informa: contém caranguejo"
+    },
+    "contem lagosta": {
+        "restricao": "crustaceos",
+        "mensagem": "O rótulo informa: contém lagosta"
+    },
+
+    "contem castanhas": {
+        "restricao": "oleaginosas",
+        "mensagem": "O rótulo informa: contém castanhas"
+    },
+    "contem castanha": {
+        "restricao": "oleaginosas",
+        "mensagem": "O rótulo informa: contém castanha"
+    },
+    "contem amendoa": {
+        "restricao": "oleaginosas",
+        "mensagem": "O rótulo informa: contém amêndoa"
+    },
+    "contem avela": {
+        "restricao": "oleaginosas",
+        "mensagem": "O rótulo informa: contém avelã"
+    },
+    "contem castanha de caju": {
+        "restricao": "oleaginosas",
+        "mensagem": "O rótulo informa: contém castanha-de-caju"
+    },
+    "contem castanha-do-caju": {
+        "restricao": "oleaginosas",
+        "mensagem": "O rótulo informa: contém castanha-de-caju"
+    },
+    "contem castanha-do-para": {
+        "restricao": "oleaginosas",
+        "mensagem": "O rótulo informa: contém castanha-do-pará"
+    },
+    "contem castanha do para": {
+        "restricao": "oleaginosas",
+        "mensagem": "O rótulo informa: contém castanha-do-pará"
+    },
+    "contem castanha-do-brasil": {
+        "restricao": "oleaginosas",
+        "mensagem": "O rótulo informa: contém castanha-do-brasil"
+    },
+    "contem castanha do brasil": {
+        "restricao": "oleaginosas",
+        "mensagem": "O rótulo informa: contém castanha-do-brasil"
+    },
+    "contem macadamia": {
+        "restricao": "oleaginosas",
+        "mensagem": "O rótulo informa: contém macadâmia"
+    },
+    "contem nozes": {
+        "restricao": "oleaginosas",
+        "mensagem": "O rótulo informa: contém nozes"
+    },
+    "contem peca": {
+        "restricao": "oleaginosas",
+        "mensagem": "O rótulo informa: contém pecã"
+    },
+    "contem pistache": {
+        "restricao": "oleaginosas",
+        "mensagem": "O rótulo informa: contém pistache"
+    },
+    "contem pinoli": {
+        "restricao": "oleaginosas",
+        "mensagem": "O rótulo informa: contém pinoli"
+    },
+
+    "contem latex": {
+        "restricao": "latex",
+        "mensagem": "O rótulo informa: contém látex"
+    },
+    "contem latex natural": {
+        "restricao": "latex",
+        "mensagem": "O rótulo informa: contém látex natural"
+    },
+        # =========================
+    # FRASES DE RÓTULO - PODE CONTER
+    # =========================
+
+    "pode conter gluten": {
+        "restricao": "gluten",
+        "mensagem": "O rótulo informa: pode conter glúten"
+    },
+    "pode conter leite": {
+        "restricao": "lactose",
+        "mensagem": "O rótulo informa: pode conter leite"
+    },
+    "pode conter lactose": {
+        "restricao": "lactose",
+        "mensagem": "O rótulo informa: pode conter lactose"
+    },
+    "pode conter ovo": {
+        "restricao": "ovos",
+        "mensagem": "O rótulo informa: pode conter ovo"
+    },
+    "pode conter ovos": {
+        "restricao": "ovos",
+        "mensagem": "O rótulo informa: pode conter ovos"
+    },
+    "pode conter soja": {
+        "restricao": "soja",
+        "mensagem": "O rótulo informa: pode conter soja"
+    },
+    "pode conter amendoim": {
+        "restricao": "amendoim",
+        "mensagem": "O rótulo informa: pode conter amendoim"
+    },
+    "pode conter peixe": {
+        "restricao": "peixes",
+        "mensagem": "O rótulo informa: pode conter peixe"
+    },
+    "pode conter peixes": {
+        "restricao": "peixes",
+        "mensagem": "O rótulo informa: pode conter peixes"
+    },
+    "pode conter crustaceos": {
+        "restricao": "crustaceos",
+        "mensagem": "O rótulo informa: pode conter crustáceos"
+    },
+    "pode conter castanhas": {
+        "restricao": "oleaginosas",
+        "mensagem": "O rótulo informa: pode conter castanhas"
+    },
+    "pode conter amendoa": {
+        "restricao": "oleaginosas",
+        "mensagem": "O rótulo informa: pode conter amêndoa"
+    },
+    "pode conter avela": {
+        "restricao": "oleaginosas",
+        "mensagem": "O rótulo informa: pode conter avelã"
+    },
+    "pode conter castanha de caju": {
+        "restricao": "oleaginosas",
+        "mensagem": "O rótulo informa: pode conter castanha-de-caju"
+    },
+    "pode conter castanha do para": {
+        "restricao": "oleaginosas",
+        "mensagem": "O rótulo informa: pode conter castanha-do-pará"
+    },
+    "pode conter nozes": {
+        "restricao": "oleaginosas",
+        "mensagem": "O rótulo informa: pode conter nozes"
+    },
+    "pode conter latex": {
+        "restricao": "latex",
+        "mensagem": "O rótulo informa: pode conter látex"
     }
 }

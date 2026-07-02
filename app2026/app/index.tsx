@@ -8,8 +8,8 @@ export default function Index() {
     >
       <Text style={ styles.text }>Hello World!!</Text>
     
-      <Link href="/about" style={ styles.button }>
-      Go to About
+      <Link href="/perfil" style={ styles.button }>
+      Go to Perfil
       </Link>
 
     </View>
