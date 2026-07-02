@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from regras import regras
 import unicodedata
+from gemini_ia import verificar_com_ia
 
 app = FastAPI()
 
@@ -49,14 +50,31 @@ def analisar(dados: Dados):
                 motivos.append(regras[ingrediente]["mensagem"])
 
     if motivos:
-        return {
+        resposta = {
             "produto": dados.nome_produto,
+            "ingredientes": dados.ingredientes,
+            "restricoes": dados.restricoes,
             "resultado": "não recomendado",
             "motivos": motivos
         }
+        return resposta
     else:
-        return {
+        resposta= {
             "produto": dados.nome_produto,
+            "ingredientes": dados.ingredientes,
+            "restricoes": dados.restricoes,
             "resultado": "seguro para consumo",
             "motivos": []
         }
+        return resposta
+    
+@app.post("/analisar-com-ia")
+def analisar_com_ia(dados: Dados):
+    resultado_regras = analisar(dados)
+
+    resposta_ia = verificar_com_ia(resultado_regras)
+
+    return {
+        "analise_regras": resultado_regras,
+        "analise_ia": resposta_ia
+    }
