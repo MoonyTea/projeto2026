@@ -1,6 +1,6 @@
 from google import genai
 
-client = genai.Client(api_key="COLE_SUA_CHAVE_AQUI")
+client = genai.Client(api_key="chave_de_api_aqui")
 
 
 def verificar_com_ia(resultado_regras):
@@ -11,12 +11,12 @@ Este foi o JSON gerado pelo sistema:
 
 {resultado_regras}
 
-Analise esse JSON e responda de forma simples:
+Analise cada ingrediente e separadamente e veja se ele apresenta uma relação com cada uma das restrições mencionadas no json.
+Depois, gere um pegueno texto explicativo com base nessa análise, respondendo:
 
-1. O resultado parece correto?
-2. As restrições do usuário foram consideradas?
-3. Algum ingrediente perigoso pode ter passado despercebido?
-4. A resposta deveria continuar igual ou deveria ser revisada?
+1. O alimento é seguro para consumo?
+2. Quais ingredientes apresentam algum risco, e com qual restrição eles se relacionam?
+3. A análise anterior encontrou todos os motivos do porquê o alimento não é seguro?
 
 Responda de forma curta, clara e fácil de entender.
 """
