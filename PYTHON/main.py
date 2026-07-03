@@ -22,11 +22,18 @@ def normalizar(texto):
     )
     return texto
 
+def analisar_com_ia(resposta: dict):
+    resposta_ia = verificar_com_ia(resposta)
+
+    return {
+        "analise_regras": resposta,
+        "analise_ia": resposta_ia
+    }
+
 
 @app.get("/")
 def home():
     return {"Mensagem": "Hello World!"}
-
 
 @app.post("/analisar")
 def analisar(dados: Dados):
@@ -57,7 +64,7 @@ def analisar(dados: Dados):
             "resultado": "não recomendado",
             "motivos": motivos
         }
-        return resposta
+        return analisar_com_ia(resposta)
     else:
         resposta= {
             "produto": dados.nome_produto,
@@ -66,15 +73,8 @@ def analisar(dados: Dados):
             "resultado": "seguro para consumo",
             "motivos": []
         }
-        return resposta
+        return analisar_com_ia(resposta)
     
-@app.post("/analisar-com-ia")
-def analisar_com_ia(dados: Dados):
-    resultado_regras = analisar(dados)
-
-    resposta_ia = verificar_com_ia(resultado_regras)
-
-    return {
-        "analise_regras": resultado_regras,
-        "analise_ia": resposta_ia
-    }
+    
+    
+    
