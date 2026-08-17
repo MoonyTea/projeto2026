@@ -238,7 +238,243 @@ regras = {
         "restricao": "lactose",
         "mensagem": "Contém cultura inicial de ácido láctico fermentado em soro de leite"
     },
-    
+
+    "leite": { 
+        "restricao": "leite", 
+        "mensagem": "Contém leite, incompatível com restrição à lactose" 
+    }, 
+    "leite integral": { 
+        "restricao": "leite", 
+        "mensagem": "Contém leite integral, incompatível com restrição à lactose" 
+    }, 
+    "leite semidesnatado": { 
+        "restricao": "leite", 
+        "mensagem": "Contém leite semidesnatado, incompatível com restrição à lactose" 
+    }, 
+    "leite desnatado": { 
+        "restricao": "leite", 
+        "mensagem": "Contém leite desnatado, incompatível com restrição à lactose" 
+    }, 
+    "leite em po": { 
+        "restricao": "leite", 
+        "mensagem": "Contém leite em pó, incompatível com restrição à lactose" 
+    }, 
+    "leite condensado": { 
+        "restricao": "leite", 
+        "mensagem": "Contém leite condensado, incompatível com restrição à lactose" 
+    }, 
+    "leite evaporado": { 
+        "restricao": "leite", 
+        "mensagem": "Contém leite evaporado, incompatível com restrição à lactose" 
+    }, 
+    "lactoalbumina": { 
+        "restricao": "leite", 
+        "mensagem": "Contém lactoalbumina, derivado do leite" 
+    }, 
+    "lactalbumina": { 
+        "restricao": "leite", 
+        "mensagem": "Contém lactalbumina, derivado do leite" 
+    }, 
+    "lactoglobulina": { 
+        "restricao": "leite", 
+        "mensagem": "Contém lactoglobulina, derivado do leite" 
+    }, 
+    "fosfato de lactoalbumina": { 
+        "restricao": "leite", 
+        "mensagem": "Contém fosfato de lactoalbumina, derivado do leite" 
+    }, 
+    "lactoferrina": { 
+        "restricao": "leite", 
+        "mensagem": "Contém lactoferrina, derivado do leite" 
+    }, 
+    "lactulose": { 
+        "restricao": "leite", 
+        "mensagem": "Contém lactulose, incompatível com restrição à lactose" 
+    }, 
+    "lactulona": { 
+        "restricao": "leite", 
+        "mensagem": "Contém lactulona, incompatível com restrição à lactose" 
+    }, 
+    "lactose": { 
+        "restricao": "leite", 
+        "mensagem": "Contém lactose, incompatível com restrição à lactose" 
+    }, 
+    "caseina": { 
+        "restricao": "leite", 
+        "mensagem": "Contém caseína, proteína do leite" 
+    }, 
+    "caseina de coalho": { 
+        "restricao": "leite", 
+        "mensagem": "Contém caseína de coalho, proteína do leite" 
+    }, 
+    "caseina hidrolisada": { 
+        "restricao": "leite", 
+        "mensagem": "Contém caseína hidrolisada, derivado do leite" 
+    }, 
+    "caseinato": { 
+        "restricao": "leite", 
+        "mensagem": "Contém caseinato, derivado do leite" 
+    }, 
+    "caseinato de calcio": { 
+        "restricao": "leite", 
+        "mensagem": "Contém caseinato de cálcio, derivado do leite" 
+    }, 
+    "caseinato de potassio": { 
+        "restricao": "leite", 
+        "mensagem": "Contém caseinato de potássio, derivado do leite" 
+    }, 
+    "caseinato de amonia": { 
+        "restricao": "leite", 
+        "mensagem": "Contém caseinato de amônia, derivado do leite" 
+    }, 
+    "caseinato de magnesio": { 
+        "restricao": "leite", 
+        "mensagem": "Contém caseinato de magnésio, derivado do leite" 
+    }, 
+    "caseinato de sodio": { 
+        "restricao": "leite", 
+        "mensagem": "Contém caseinato de sódio, derivado do leite" 
+    }, 
+    "leitelho": { 
+        "restricao": "leite", 
+        "mensagem": "Contém leitelho, derivado do leite" 
+    }, 
+    "manteiga": { 
+        "restricao": "leite", 
+        "mensagem": "Contém manteiga, derivado do leite" 
+    }, 
+    "gordura de manteiga": { 
+        "restricao": "leite", 
+        "mensagem": "Contém gordura de manteiga, derivado do leite" 
+    }, 
+    "oleo de manteiga": { 
+        "restricao": "leite", 
+        "mensagem": "Contém óleo de manteiga, derivado do leite" 
+    }, 
+    "ester de manteiga": { 
+        "restricao": "leite", 
+        "mensagem": "Contém éster de manteiga, derivado do leite" 
+    }, 
+    "creme de leite": { 
+        "restricao": "leite", 
+        "mensagem": "Contém creme de leite, incompatível com restrição à lactose" 
+    }, 
+    "nata": { 
+        "restricao": "leite", 
+        "mensagem": "Contém nata, derivado do leite" 
+    }, 
+    "soro de leite": { 
+        "restricao": "leite", 
+        "mensagem": "Contém soro de leite, derivado do leite" 
+    }, 
+    "soro de leite deslactosado": { 
+        "restricao": "leite", 
+        "mensagem": "Contém soro de leite deslactosado, derivado do leite" 
+    }, 
+    "soro de leite desmineralizado": { 
+        "restricao": "leite", 
+        "mensagem": "Contém soro de leite desmineralizado, derivado do leite" 
+    }, 
+    "gordura de leite": { 
+        "restricao": "leite", 
+        "mensagem": "Contém gordura de leite, derivado do leite" 
+    }, 
+    "coalhada": { 
+        "restricao": "leite", 
+        "mensagem": "Contém coalhada, derivado do leite" 
+    }, 
+    "proteina de leite hidrolisada": { 
+        "restricao": "leite", 
+        "mensagem": "Contém proteína de leite hidrolisada, derivado do leite" 
+    }, 
+    "ghee": { 
+        "restricao": "leite", 
+        "mensagem": "Contém ghee, derivado do leite" 
+    }, 
+    "hidrolisado de caseina": { 
+        "restricao": "leite", 
+        "mensagem": "Contém hidrolisado de caseína, derivado do leite" 
+    }, 
+    "hidrolisado de lactoalbumina": { 
+        "restricao": "leite", 
+        "mensagem": "Contém hidrolisado de lactoalbumina, derivado do leite" 
+    }, 
+    "hidrolisado de lactalbumina": { 
+        "restricao": "leite", 
+        "mensagem": "Contém hidrolisado de lactalbumina, derivado do leite" 
+    }, 
+    "hidrolisado de proteina do leite": { 
+        "restricao": "leite", 
+        "mensagem": "Contém hidrolisado de proteína do leite" 
+    }, 
+    "hidrolisado de proteina de soro de leite": { 
+        "restricao": "leite", 
+        "mensagem": "Contém hidrolisado de proteína de soro de leite" 
+    }, 
+    "hidrolisado de iogurte": { 
+        "restricao": "leite", 
+        "mensagem": "Contém hidrolisado de iogurte, derivado do leite" 
+    }, 
+    "iogurte": { 
+        "restricao": "leite", 
+        "mensagem": "Contém iogurte, derivado do leite" 
+    }, 
+    "extrato de proteina de leite": { 
+        "restricao": "leite", 
+        "mensagem": "Contém extrato de proteína de leite" 
+    }, 
+    "solidos de leite azedo": { 
+        "restricao": "leite", 
+        "mensagem": "Contém sólidos de leite azedo" 
+    }, 
+    "fermento lacteo": { 
+        "restricao": "leite", 
+        "mensagem": "Contém fermento lácteo, derivado do leite" 
+    }, 
+    "composto lacteo": { 
+        "restricao": "leite", 
+        "mensagem": "Contém composto lácteo" 
+    }, 
+    "mistura lactea": { 
+        "restricao": "leite", 
+        "mensagem": "Contém mistura láctea" 
+    }, 
+    "diacetil": { 
+        "restricao": "leite", 
+        "mensagem": "Pode conter derivado lácteo: diacetil" 
+    }, 
+    "gordura anidra de leite": { 
+        "restricao": "leite", 
+        "mensagem": "Contém gordura anidra de leite" 
+    }, 
+    "proteina lactea": { 
+        "restricao": "leite", 
+        "mensagem": "Contém proteína láctea" 
+    }, 
+    "doce de leite": { 
+        "restricao": "leite", 
+        "mensagem": "Contém doce de leite, incompatível com restrição à lactose" 
+    }, 
+    "petit suisse": { 
+        "restricao": "leite", 
+        "mensagem": "Contém petit suisse, derivado do leite" 
+    }, 
+    "nougat": { 
+        "restricao": "leite", 
+        "mensagem": "Pode conter leite ou derivados: nougat" 
+    }, 
+    "proteina lactea do soro de leite microparticulada": { 
+        "restricao": "leite", 
+        "mensagem": "Contém proteína láctea do soro de leite microparticulada" 
+    }, 
+    "cultura inicial de acido lactico fermentado em leite": { 
+        "restricao": "leite", 
+        "mensagem": "Contém cultura inicial de ácido láctico fermentado em leite" 
+    }, 
+    "cultura inicial de acido lactico fermentado em soro de leite": { 
+        "restricao": "leite", 
+        "mensagem": "Contém cultura inicial de ácido láctico fermentado em soro de leite" 
+    },
     # =========================
     # OVO
     # =========================
